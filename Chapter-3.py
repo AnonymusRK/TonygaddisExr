@@ -2,7 +2,7 @@
 
 # Exr-1
 
-"""print("Personal information")
+print("Personal information")
 
 print(input("Your name: "))
 print(input("Your adress\nCity: "))
@@ -10,11 +10,10 @@ print(input("State: "))
 print(input("Zip:"))
 print(input("Your telephone number: "))
 print(input("Your college major: "))
-"""
 
 # Exr-2
 
-"""def sales_tax():
+def sales_tax():
     purchase = int(input("Amount of purchase: "))
     state_tax = purchase*0.04
     county_tax = purchase*0.02
@@ -24,20 +23,20 @@ print(input("Your college major: "))
     print("County tax is", county_tax)
     print("Total sales tax is", total_tax)
     print("Total sale is", total_sale)
-sales_tax()"""
+sales_tax()
 
 # Exr-3
 
-"""def insurance():
+def insurance():
     repl_cost = float(input("Enter the replacement cost: "))
     insurance = repl_cost*0.8
     print("Minimum amount of insurance is", insurance)
 
-insurance()"""
+insurance()
 
 # Exr-4
 
-"""def automobile_costs():
+def automobile_costs():
     print("You have following expenses for your car:")
     loan_payment = float(input("Loan payment: $"))
     insurance = float(input("Insurance: $"))
@@ -49,22 +48,22 @@ insurance()"""
     annual_cost = monthly*12
     print("Total monthly cost is $", monthly, "\nTotal annual cost is $", annual_cost)
 
-automobile_costs()"""
+automobile_costs()
 
 # Exr-5
 
-"""def property_tax():
+def property_tax():
     actual_value = float(input("Enter the actual value: $"))
     tax_value = actual_value*0.6
     assesment_value = actual_value*0.4
     print("Assesment value is: $", assesment_value, "\nProperty tax is $", tax_value)
     print("Note: Property tax is 60%")
 
-property_tax()"""
+property_tax()
 
 # Exr-6
 
-"""def body_mass():
+def body_mass():
     weight = float(input("Enter your weight: "))
     height = float(input("your height: "))
     body_mass = weight*703/height**2
@@ -82,11 +81,11 @@ def calories():
     carb_cal = carb_grams*4
     print("The number of calories you consume from fat grams is ", fat_cal, "and from carbohydrate grams is ", carb_cal)
 
-calories()"""
+calories()
 
 # Exr-8
 
-"""def stadium_seats():
+def stadium_seats():
     print("Number of tickets were sold")
     class_a = int(input("Class A: "))
     class_b = int(input("Class B: "))
@@ -94,12 +93,11 @@ calories()"""
     total_income = class_a*15 + class_b*12 + class_c*9
     print("Total income is $", total_income)
 
-stadium_seats()"""
-
+stadium_seats()
 
 # Exr-9
 
-"""def paint_job_estimater():
+def paint_job_estimater():
     painting_area = int(input("Enter the square feet of wall space to be painted: "))
     price_gallon = float(input("Price of the paint per gallon: $"))
     while painting_area>=115:
@@ -114,11 +112,10 @@ stadium_seats()"""
         print("The labor charges: ", labor_charge)
         print("The total cost of paint job: ", total_cost)
         break
-paint_job_estimater()"""
-
-
+paint_job_estimater()
 
 # Exr-10
+
 def monthly_tax():
     total_sales = float(input("Enter the total sales for the month: $"))
     county_tax = total_sales*0.04
