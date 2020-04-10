@@ -1,4 +1,3 @@
-"""
 # Exr-1
 
 n = int(input("N = "))
@@ -78,11 +77,11 @@ elif bir == 8:
 elif bir == 9:
     print("IX", end='')
 
-print("")"""
+print("")
 
 # Exr-2
 
-"""print("First rectangle:")
+print("First rectangle:")
 a = float(input("a = "))
 b = float(input("b = "))
 first_rec_area = a*b
@@ -95,11 +94,11 @@ if first_rec_area>sec_rec_area:
 elif sec_rec_area>first_rec_area:
     print("Second rectangle is greater.")
 else:
-    print("They are equal.")"""
+    print("They are equal.")
 
 # Exr-3 Mass and Weight
 
-"""mass = float(input("Enter object's mass: "))
+mass = float(input("Enter object's mass: "))
 
 weight = mass*9.8
 
@@ -108,11 +107,11 @@ if weight>1000:
 elif weight<10:
     print("It is too light!")
 else:
-    print(weight)"""
+    print(weight)
 
 # Exr-4 Magic Dates
 
-"""day = int(input("Day: "))
+day = int(input("Day: "))
 month = int(input("Month: "))
 year = int(input("Two digit year:"))
 
@@ -120,11 +119,11 @@ if day*month==year:
     print(month, "x", day, "=", year, "\nIt is a magic date!")
 elif day*month!=year:
     print(month, "/", day, "/", year, "\nIt is not a magic date!")
-"""
+
 
 # Exr-5 Color Pixel
 
-"""color_1 = input("First primary color: ")
+color_1 = input("First primary color: ")
 color_2 = input("Second primary color: ")
 color_1 = color_1.lower()
 color_2 = color_2.lower()
@@ -136,11 +135,11 @@ elif color_1=="red" and color_2=="yellow" or color_1=="yellow" and color_2=="red
 elif color_1=="blue" and color_2=="yellow" or color_1=="yellow" and color_2=="blue":
     print("You get green!")
 else:
-    print("You chose wrong color!!!")"""
+    print("You chose wrong color!!!")
 
 # Exr-6 Change for a Dolar Game
 
-"""choice = input("What kind of coins you want to play with: ")
+choice = input("What kind of coins you want to play with: ")
 
 if choice=="penny":
     penny = int(input("Enter the number of pennies:"))
@@ -168,11 +167,11 @@ elif choice=="quarter":
         print("You failed.")
 else:
     print("Choose the right option.")
-"""
+
 
 # Exr-7 Book Club Points
 
-"""purchases = int(input("Enter the number of books you bought in this month: "))
+purchases = int(input("Enter the number of books you bought in this month: "))
 
 if purchases==1:
     print("You earned 5 point!")
@@ -183,11 +182,11 @@ elif purchases==3:
 elif purchases>=4:
     print("You earned 60 points!")
 else:
-     print("You have no points.")"""
+     print("You have no points.")
 
 # Exr-7 Software Sales
 
-"""purchased = int(input("Enter the number of packages purchased: "))
+purchased = int(input("Enter the number of packages purchased: "))
 
 print("Quantity of purchase         Discount\n")
 print("       ", purchased, end="")
@@ -201,11 +200,11 @@ elif purchased>=20 and purchased<=49:
 elif purchased>=10 and purchased<=19:
     print("                    20%")
 else:
-    print("                   There is no \n                            discount for \n                            0 purchase!")"""
+    print("                   There is no \n                            discount for \n                            0 purchase!")
 
 # Exr-9 Shipping Charges
 
-"""weight = int(input("Enter the weight of a package: "))
+weight = int(input("Enter the weight of a package: "))
 
 if weight<=2:
     print("$1.10")
@@ -214,11 +213,11 @@ elif weight>2 and weight<=6:
 elif weight>6 and weight<=10:
     print("$3.70")
 else:
-    print("$3.80")"""
+    print("$3.80")
 
 # Exr-10 Body Mass Index Program Enhancement
 
-"""def body_mass():
+def body_mass():
     weight = float(input("Enter your weight: "))
     height = float(input("your height: "))
     body_mass = weight*703/height**2
@@ -231,10 +230,10 @@ else:
        
     print("Note! The parameters you entered are in pounds and inches respectively")
 
-body_mass()"""
+body_mass()
 
 # Exr-11 Time Calculator
-"""
+
 seconds = int(input("Enter the number of seconds: "))
 
 days = seconds//86400
@@ -264,4 +263,4 @@ elif minutes:
     elif seconds:
         print(seconds, "seconds")  
 else:
-    print(seconds, "seconds") """
+    print(seconds, "seconds") 
